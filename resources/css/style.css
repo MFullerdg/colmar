@@ -1,0 +1,50 @@
+html {
+  font-size: 18px;
+  font-family: taviraj, serif;
+}
+
+/*Header Section*/
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.55rem;
+}
+
+.logo {
+  display:flex;
+  align-items: center;
+  margin-left: 1.33rem;
+}
+
+.colmar, .academy {
+  font-size: 1.3rem;
+  font-family: 'work sans', 'sans serif';
+}
+
+.colmar {
+  color: hsl(0, 0%, 29%);
+  font-weight: bold;
+}
+
+.academy {
+  color: hsl(0, 0%, 60%);
+}
+/*Navbar*/
+nav {
+  margin-right: 1.33rem;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin: 0 0.44rem;
+  font-family: 'work sans', sans-serif;
+}
+
+/*Top Section*/
+.top-section {
+  display: flex;
+}
