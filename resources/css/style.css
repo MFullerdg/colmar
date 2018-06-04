@@ -79,7 +79,7 @@ h1 {
   font-size: 2.2rem;
   padding-bottom: 1.5rem;
 }
-h1, h2 {
+h1, h2, h3 {
   font-family: 'work sans', sans-serif;
   font-weight: bold;
   color: hsl(0, 0%, 25%);
@@ -110,9 +110,10 @@ h2 {
   margin-top: 2rem;
 }
 
-.middle-text h1 {
+h3 {
   font-size: 1.8rem;
   font-weight: 900;
+  padding-bottom: 1.5rem;
 }
 
 .middle-right {
@@ -139,4 +140,41 @@ h2 {
 
 .small-text p {
   margin: 1rem 0;
+}
+/*Learning Section*/
+
+.learning {
+  background-color: hsl(0, 0%, 80%);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.gridframe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gridbox {
+  background-color: white;
+  margin: 1rem;
+  width: 25%;
+}
+
+.gridbox img {
+  height: auto;
+  width: 100%;
+}
+
+.gridbox h2 {
+  margin: 1rem 0;
+}
+
+.gridtext {
+  text-align: left;
+  padding: 1rem;
+}
+
+.gridtext p {
+  padding: 0.5rem 0;
 }
