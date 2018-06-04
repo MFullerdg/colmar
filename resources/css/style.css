@@ -189,3 +189,32 @@ h3 {
 .gridtext p {
   padding: 0.5rem 0;
 }
+
+/*Thesis Section*/
+
+.thesis {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.thesis-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.thesis-left video {
+  width: 100%;
+}
+
+.thesis-text {
+  text-align: left;
+}
+
+.thesis-text h2 {
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.thesis-right {
+  width: 40%;
+}
