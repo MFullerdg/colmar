@@ -118,7 +118,7 @@ h3 {
 
 .middle-right {
   border-left: 1px solid hsl(0, 0%, 80%);
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
 }
@@ -128,6 +128,10 @@ h3 {
   align-items: center;
   padding: 1.5rem 0 1.5rem 0.75rem;
   border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+.small-story:hover {
+  background-color: hsl(0, 0%, 70%);
 }
 
 .small-story img {
@@ -141,6 +145,13 @@ h3 {
 .small-text p {
   margin: 1rem 0;
 }
+
+.small-text a {
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+  padding: 0.25rem;
+}
+
 /*Learning Section*/
 
 .learning {
