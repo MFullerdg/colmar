@@ -192,15 +192,21 @@ h3 {
 
 /*Thesis Section*/
 
-.thesis {
+.thesis-head {
   text-align: center;
-  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.thesis {
+  padding: 0 0 2rem 1.5rem;
+  display: flex;
 }
 
 .thesis-left {
   display: flex;
   flex-direction: column;
   width: 60%;
+  margin-right: 0.75rem;
 }
 
 .thesis-left video {
@@ -216,5 +222,14 @@ h3 {
 }
 
 .thesis-right {
-  width: 40%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Footer Section*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
 }
