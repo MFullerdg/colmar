@@ -96,6 +96,7 @@ li {
 .top-right-head {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 h1 {
@@ -188,6 +189,12 @@ h3 {
   .top-right-head {
     width: 100%;
   }
+  .middle-left {
+    display:none;
+  }
+  .middle-right {
+    width: 100%;
+  }
 
 }
 
@@ -229,6 +236,18 @@ h3 {
   padding: 0.5rem 0;
 }
 
+@media only screen and (max-width: 670px) {
+  .gridbox{
+    width: 90%;
+  }
+  .gridbox img {
+    display: none;
+  }
+  .gridtext p {
+    display: none;
+  }
+}
+
 /*Thesis Section*/
 
 .thesis-head {
@@ -267,6 +286,18 @@ h3 {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 670px) {
+  .thesis-left {
+    width: auto;
+  }
+  .thesis-right {
+    display: none;
+  }
+  .thesis-text {
+    display: none;
+  }
+}
+
 /*Footer Section*/
 
 footer {
@@ -277,4 +308,10 @@ footer {
 
 footer span {
   font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 670px) {
+  .terms {
+    display: none;
+  }
 }
