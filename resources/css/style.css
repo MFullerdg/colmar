@@ -34,7 +34,29 @@ header {
 .academy {
   color: hsl(0, 0%, 60%);
 }
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 670px) {
+  nav {
+    display: none;
+  }
+  .logo {
+    display: none
+  }
+  .mobile-nav {
+    height: 4rem;
+    width: 100%;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 /*Navbar*/
+
 nav {
   margin-right: 1.5rem;
 }
@@ -49,6 +71,7 @@ li {
 }
 
 /*Top and Middle Section*/
+
 .top-section {
   display: flex;
   background-color: hsl(0, 0%, 80%);
@@ -150,6 +173,22 @@ h3 {
   background-color: hsl(0, 0%, 30%);
   color: white;
   padding: 0.25rem;
+}
+
+@media only screen and (max-width: 670px) {
+  .top-section {
+    display: block;
+  }
+  .top-left {
+    width:auto;
+  }
+  .top-right {
+    width: auto;
+  }
+  .top-right-head {
+    width: 100%;
+  }
+
 }
 
 /*Learning Section*/
